@@ -22,16 +22,19 @@ const KorokButton = () => {
 
   return (
     <>
-      <button
-        onClick={() => {
-          handleClickMe();
-        }}
-        className="text-emerald-200 hover:bg-emerald-200 hover:text-white w-20 h-10"
-      >
-        Click me
-      </button>
+      {!isFound && (
+        <button
+          onClick={() => {
+            handleClickMe();
+          }}
+          className="text-emerald-200 hover:bg-emerald-200 hover:text-white w-20 h-10"
+        >
+          Click me
+        </button>
+      )}
+
       {isFound && (
-        <>
+        <div className="flex flex-col justify-end">
           <Image
             src={Korok}
             alt="Korok Found"
@@ -39,7 +42,8 @@ const KorokButton = () => {
             height={200}
             className="mt-4"
           />
-        </>
+          <p>Yahaha! You found me!</p>
+        </div>
       )}
     </>
   );

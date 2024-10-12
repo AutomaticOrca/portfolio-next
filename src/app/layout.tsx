@@ -36,10 +36,10 @@ export default function RootLayout({
       >
         <Providers>
           <CustomizedNav />
-          <div className="grid grid-cols-[200px_1fr_200px] gap-4 p-4">
-            <SidebarLeft />
-            <main>{children}</main>
-            <SidebarRight />
+          <SidebarLeft />
+          <SidebarRight />
+          <div className="min-h-screen grid p-4 ml-[150px] mr-[150px]">
+            <main className="px-5 py-2">{children}</main>
           </div>
           <Footer />
         </Providers>

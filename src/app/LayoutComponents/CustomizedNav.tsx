@@ -13,6 +13,14 @@ const CustomizedNav = () => {
       <NavbarBrand>
         <p className="font-bold text-inherit">JY Liang</p>
       </NavbarBrand>
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <Link href="https://www.linkedin.com/in/jyliang1013/">LinkedIn</Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link href="https://github.com/AutomaticOrca">GitHub</Link>
+        </NavbarItem>
+      </NavbarContent>
     </Navbar>
   );
 };

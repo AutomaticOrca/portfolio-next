@@ -1,0 +1,43 @@
+{
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "HTML", "CSS", "SQL"],
+    "frameworksAndLibraries": [
+      "React",
+      "NodeJS",
+      "ExpressJS",
+      "MaterialUI",
+      "Bootstrap"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "MongoDB Compass",
+      "TablePlus",
+      "Navicat",
+      "SQLite"
+    ],
+    "toolsAndPlatforms": [
+      "AWS",
+      "Git",
+      "Git Actions",
+      "Linux",
+      "Debian",
+      "Bash",
+      "Shell",
+      "Jira",
+      "Figma",
+      "LaTeX"
+    ],
+    "conceptsAndMethodologies": [
+      "Object-Oriented Programming(OOP)",
+      "Front-end Development",
+      "Back-end Development",
+      "Regular Expression(Regexp)",
+      "Full-stack Development",
+      "Agile",
+      "Scrum",
+      "CI/CD"
+    ]
+  }
+}
