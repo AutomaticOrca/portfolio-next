@@ -1,10 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import { ReactTyped } from "react-typed";
-import LinkedinIcon from "./GithubIcon";
+
 const CoverGreetings = () => {
   const [showSecondLine, setShowSecondLine] = useState(false);
   const [showThirdLine, setShowThirdLine] = useState(false);
+  const [showFourthLine, setShowFourthLine] = useState(false);
 
   const getGreeting = () => {
     const currentHour = new Date().getHours();
@@ -22,7 +23,7 @@ const CoverGreetings = () => {
       <div>
         <div>
           <ReactTyped
-            strings={[getGreeting()]}
+            strings={["$ who am i"]}
             typeSpeed={50}
             showCursor={false}
             onComplete={() => setShowSecondLine(true)} // 打完第一行后显示第二行
@@ -32,7 +33,7 @@ const CoverGreetings = () => {
         <div>
           {showSecondLine && (
             <ReactTyped
-              strings={["Joyce here"]}
+              strings={["On my student card, I am casual acdemic"]}
               typeSpeed={50}
               backSpeed={30}
               showCursor={false}
@@ -44,7 +45,19 @@ const CoverGreetings = () => {
         <div>
           {showThirdLine && (
             <ReactTyped
-              strings={["A software developer"]}
+              strings={["In my mind, I am a software engineer."]}
+              typeSpeed={50}
+              backSpeed={30}
+              showCursor={false}
+              onComplete={() => setShowFourthLine(true)} // 打完第二行后显示第三行
+            />
+          )}
+        </div>
+
+        <div>
+          {showFourthLine && (
+            <ReactTyped
+              strings={["But in my heart, I am a distant dreamer."]}
               typeSpeed={50}
               backSpeed={30}
               showCursor={false}

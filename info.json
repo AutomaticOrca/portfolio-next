@@ -1,12 +1,60 @@
 {
+  "projects": [
+    {
+      "name": "Simple Bank",
+      "status": "on progress",
+      "description": "a simple bank service in Golang",
+      "tech-stack": "Go, Postgres, Kubernetes, CI/CD, AWS ECR, EKS, Git",
+      "self-reviews": "I have truly learned a lot from this Udemy course, including design, development, and deployment, covering both theoretical and practical aspects. Special thanks to Quang Pham, an intelligent and dedicated lecturer! Although my learning path has been slow, it has been rewarding.",
+      "link": "https://github.com/AutomaticOrca/simplebank"
+    },
+    {
+      "name": "LinkedOn",
+      "status": "on progress",
+      "description": "Connection building backend system. Followed by Udemy Course, covered user auth, encryption: JWT, paging/sorting, role management, Still need to be completed: SignalR, Unit of work, publish to azure",
+      "tech-stack": "ASP.NET, C#, JWT, SQLite",
+      "self-reviews": "Feel the beauty of OOP... Need to be very clear about relationship between each classes. But mainly focus on following lecture, should have involved in my thinking.",
+      "link": "https://github.com/AutomaticOrca/LinkedOn-dotnet"
+    },
+    {
+      "name": "Cinema Paradiso",
+      "status": "archived",
+      "description": "Full stack web application, e-commerce movie ticket booking system, personal project",
+      "tech-stack": "MongoDB, NodeJS, ExpressJS, React, TypeScript, Unit Test",
+      "self-reviews": "To familiarize myself with full stack development and deployment, nice try, put my passion for tailwind-css and typescript, but system design still need to be improved next time",
+      "link": "https://github.com/AutomaticOrca/CinemaExpressMongoBackend"
+    },
+    {
+      "name": "Hyrule Castle",
+      "status": "archived",
+      "role": "Frontend Developer",
+      "description": "UNSW IT graduate program (COMP 9900), Agile Development, Jira, React",
+      "tech-stack": "Responsible for frontend (react, javascript)",
+      "self-reviews": "Practice for agile methodoly and teamwork, shoud have showed more empathy to teammates, should have consultanted to our tutor Tom more."
+    }
+  ],
+
   "skills": {
-    "languages": ["JavaScript", "TypeScript", "Python", "HTML", "CSS", "SQL"],
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "SQL",
+      "Go",
+      "C#"
+    ],
     "frameworksAndLibraries": [
       "React",
+      "Vue",
+      "NextJS",
       "NodeJS",
       "ExpressJS",
       "MaterialUI",
-      "Bootstrap"
+      "Bootstrap",
+      "ASP.NET",
+      "Gin"
     ],
     "databases": [
       "MySQL",
@@ -20,7 +68,7 @@
     "toolsAndPlatforms": [
       "AWS",
       "Git",
-      "Git Actions",
+      "GitHub Actions",
       "Linux",
       "Debian",
       "Bash",

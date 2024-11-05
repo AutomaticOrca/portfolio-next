@@ -1,4 +1,4 @@
-import { Divider } from "@nextui-org/react";
+import Section from "./Section";
 import info from "../../../info.json";
 const Skills = () => {
   const formatCategoryName = (category: string) => {
@@ -9,9 +9,7 @@ const Skills = () => {
 
   const { skills } = info;
   return (
-    <>
-      <h1 className="text-2xl">Skills</h1>
-      <Divider />
+    <Section title="Skills">
       <ul>
         {Object.entries(skills).map(([category, items]) => (
           <li key={category}>
@@ -20,7 +18,7 @@ const Skills = () => {
           </li>
         ))}
       </ul>
-    </>
+    </Section>
   );
 };
 

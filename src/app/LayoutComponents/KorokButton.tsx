@@ -27,7 +27,7 @@ const KorokButton = () => {
           onClick={() => {
             handleClickMe();
           }}
-          className="text-emerald-200 hover:bg-emerald-200 hover:text-white w-20 h-10"
+          className="text-emerald-300 hover:bg-emerald-200 hover:text-white w-20 h-10 border-emerald-500 border-1"
         >
           Click me
         </button>

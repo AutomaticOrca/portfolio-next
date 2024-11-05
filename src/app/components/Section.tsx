@@ -1,18 +1,17 @@
 import { Divider } from "@nextui-org/react";
-import { ReactNode } from "react";
 
 interface SectionProps {
-  text: string;
-  children: ReactNode;
+  title: string;
+  children: React.ReactNode;
 }
-const Section = ({ text, children }: SectionProps) => {
+
+const Section: React.FC<SectionProps> = ({ title, children }) => {
   return (
-    <>
-      <h1 className="text-2xl">Skills</h1>
+    <div className="mx-5 my-10">
+      <h1 className="text-2xl">{title}</h1>
       <Divider />
-      {children}
-    </>
+      <div className="p-2">{children}</div>
+    </div>
   );
 };
-
 export default Section;
