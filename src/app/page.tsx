@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe";
 import Cover from "./components/Cover";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -7,6 +8,7 @@ const Page = () => {
   return (
     <>
       <Cover />
+      <AboutMe />
       <Skills />
       <Projects />
       <Why />
