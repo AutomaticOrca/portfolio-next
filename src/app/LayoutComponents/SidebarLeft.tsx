@@ -8,7 +8,7 @@ const SidebarLeft = () => {
         width={300}
         alt="NextUI hero Image"
         src={Float}
-        className="w-2/3 h-auto
+        className="w-1/3 h-auto
       "
       />
     </div>
