@@ -1,7 +1,7 @@
 # >>> Initializing jyliang profile >>>
-export NAME="jyliang"
-export INTERESTS="Cats, Gaming, Coding, Movies"
-export CHARACTERISTICS="Playful, Empathetic, Collaborative, Logical"
+export NAME="Jiaying Liang"
+export INTERESTS="Cats🐱 Gaming🎮 Coding👩‍💻 Movies🎬"
+export CHARACTERISTICS="Resilient, Empathetic, Collaborative, Logical"
 export EXPERIENCE_LEVEL="Intermediate adventurer in the journey of tech"
 export LOCATION="From hometown to global exploration"
 
